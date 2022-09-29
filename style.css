@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    color: white;
+    background-color: #60BC0F;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.banner {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/donation6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: white;
+    padding-top: 8%;
+}
+
+.banner h2 {
+    font-size: 50px;
+}
+
+.banner p {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.donateToday {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.donateToday h1 {
+    font-size: 40px;
+}
+
+.donateToday p {
+    margin: 10px 0;
+}
+
+.donateTodayAmount {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.donateTodayAmount p {
+    color: #707070;
+    background-color: #FAFAFA;
+    border: 1px solid #FAFAFA;
+    text-align: center;
+    padding: 30px 20px;
+    margin-right: 20px;
+    font-weight: bold;
+
+}
+
+.donateTodayAmount p:hover {
+    background-color: #fdba0063;
+    border: 1px solid #FDBB00;
+    cursor: pointer;
+}
+
+.donateToday input {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.donateToday input::placeholder {
+    color: #B3B3B3;
+
+}
+
+.donatePlanSection {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+.donatePlanSection h2,
+.donatePlanText {
+    text-align: center;
+}
+
+.donatePlanSection h2 {
+    font-size: 40px;
+}
+
+.donatePlanText {
+    margin: 20px 0 30px 0;
+    font-size: 16px;
+}
+
+.donatePlans {
+    display: flex;
+    justify-content: center;
+}
+
+.plans {
+    height: 280px;
+    width: 25%;
+    background-color: #EDF5F6;
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.plans img {
+    height: 55px;
+    width: 55px;
+}
+
+.plans h4 {
+    margin: 10px 0;
+}
+
+.plans-2 {
+    background-color: #60bc0f2c;
+}
+
+.plans-3 {
+    background-color: #FFF4D6;
+}
+
+.howToContributeSection {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.howConribute,
+.howConributeImg {
+    width: 50%;
+    padding: 20px;
+}
+
+.howConribute {
+    align-self: center;
+}
+
+.howConribute h2 {
+    font-size: 45px;
+}
+
+.howConribute p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.howConributeImg img {
+    height: 350px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.volunteers {
+    display: flex;
+    text-align: center;
+}
+
+.volunteersText {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.volunteersText h4 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.newsletterInput {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    background: #fdba0034;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.newsletterInput input {
+    border: none;
+    background: #D9D9D9;
+    padding: 5px;
+    width: 40%;
+}
+
+.footer {
+    /* height: 150px; */
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer h3 {
+    color: #60BC0F;
+    font-size: 30px;
+}
+
+.footer p {
+    color: #B3B3B3;
+}
